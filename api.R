@@ -25,6 +25,12 @@ function(){
   "<html><h1>hello world</h1></html>"
 }
 
+#' @get /love
+#* @serializer html
+function(){
+  "<html><h1>I love you Shannon!</h1></html>"
+}
+
 #' Echo the parameter that was sent in
 #' @param msg The message to echo back.
 #' @get /echo
