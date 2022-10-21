@@ -1,6 +1,6 @@
 FROM gcr.io/gcer-public/googlecloudrunner:master
 
-LABEL maintainer="JamariusTaylor"
+LABEL maintainer="Rob Eidson"
 
 RUN R -e 'install.packages(c("plumber"))'
 
